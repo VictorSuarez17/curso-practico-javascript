@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figuras geometricas | Curso practico JavaScript</title>
+</head>
+<body>
+  
+<header>
+  <h1>
+    Figuras geometricas
+  </h1>
+
+  <p>Este es mi primer taller del curso practico de JavaScript</p>
+
+</header>
+
+<section>
+  <h2>Calcula el area y perimetro de un cuadrado</h2>
+
+  <form>
+    <label for="inputCuadrado">
+      Escribe cuanto mide el lado del cuadrado: 
+    </label>
+      <input id="inputCuadrado" type="number"/>
+
+      <button type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perimetro
+      </button>
+
+      <button type="button" onclick="calcularAreaCuadrado()">
+        Calcular el area 
+      </button>
+      
+  </form>
+</section>
+
+<section>
+
+  <h2>Calcula el area y perimetro de un triangulo</h2>
+  
+  <form>
+
+    <label for="inputLado1">
+      Escribe las medidas del lado 1
+    </label>
+
+    <input id="inputLado1" type="number"/>
+
+  </form>
+
+  <form>
+
+    <label for="inputLado2">
+      Escribe la medida del lado 2
+    </label>
+    <input id="inputlado2" type="number">
+
+  </form>
+
+  <form>
+
+    <label for="inputBase">
+      Escribe la medida de la base del triangulo
+    </label>
+    <input id="inputBase" type="number"/>
+
+  </form>
+
+  <button type="button" onclick="calcularAreaTriangulo()">
+    Calcular area 
+  </button>
+
+  <button type="button" onclick="calcularPerimetroTriangulo()">
+    Calcular perimetro
+  </button>
+
+</section>
+
+<section>
+
+<h2>
+  Calcula el area y perimetro de un circulo
+</h2>
+
+<form>
+
+<label for="inputCirculo">
+  Escribe la medida del radio
+</label>
+<input id="inputCirculo" type="number"/>
+
+<button type="button" onclick="calcularAreaCirculo()">
+  Calcular area 
+</button>
+
+<button type="button" onclick="calcularPerimetroCirculo()">
+  Calcular perimetro
+</button>
+
+</form>
+
+</section>
+
+  <script src="./figuras.js"></script>
+</body>
+</html>
